@@ -9,7 +9,7 @@
 <title>JSP 게시판 웹사이트</title>
 </head>
 <body>
-	<script>location.href = 'login.jsp';</script>
+<!-- 	<script>location.href = 'login.jsp';</script> -->
 	<nav>
 		<div class="navbar-header">
 		 	<button type="button" class="navbar-toggle collapsed"
