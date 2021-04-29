@@ -8,17 +8,19 @@
 </head>
 <body>
 <!-- 	<script>
-		location.href = 'login.jsp';
-	</script> -->
+location.href = 'login.jsp';
+</script> -->
 	
 	<h1>문서 작성 화면</h1>
 	
-	<input type="text" id="title"/>
-	
-	<textarea rows="" cols=""></textarea>
-	
-	<button >저장</button>
-	<button >취소</button>
+	<form action="write.do" method="post">
+		<input type="text" id="title" name="title" />	
+		<textarea rows="" cols="" name="contents" ></textarea>
+		<input type="submit" value="저장"/>
+		<button>취소</button>
+	</form>
 	
 </body>
+
+
 </html>
