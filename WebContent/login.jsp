@@ -9,6 +9,7 @@
 <title>JSP 게시판 웹사이트</title>
 </head>
 <body>
+<!-- test -->
 <!-- 	<script>location.href = 'login.jsp';</script> -->
 	<nav>
 		<div class="navbar-header">
