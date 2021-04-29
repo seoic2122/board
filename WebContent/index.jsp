@@ -7,8 +7,18 @@
 <title>JSP 게시판 웹사이트</title>
 </head>
 <body>
-	<script>
+<!-- 	<script>
 		location.href = 'login.jsp';
-	</script>
+	</script> -->
+	
+	<h1>문서 작성 화면</h1>
+	
+	<input type="text" id="title"/>
+	
+	<textarea rows="" cols=""></textarea>
+	
+	<button >저장</button>
+	<button >취소</button>
+	
 </body>
 </html>
